@@ -1,0 +1,10 @@
+// Different Classes
+.container-1000{
+    @include container-width(1000px);
+}
+.container-1200{
+    @include container-width(1200px);
+}
+.container-1400{
+    @include container-width(1400px);
+}

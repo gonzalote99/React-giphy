@@ -1,0 +1,17 @@
+.pagination__container {
+  @include flex-container(row, center, center, nowrap);
+  padding-bottom: 15px;
+  #{&}--lists {
+    @include flex-container(row, center, center, nowrap);
+    &-item {
+      background-color: $primary-purple;
+      border-radius: 2.5px;
+      margin: 2.5px;
+      a {
+        padding: 10px 15px;
+        color: $primary-white;
+        display: inline-block;
+      }
+    }
+  }
+}
